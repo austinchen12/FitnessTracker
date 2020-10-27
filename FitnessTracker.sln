@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FitnessTracker", "FitnessTracker\FitnessTracker.csproj", "{3524802D-4152-42F4-8D3A-B458B16430F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FitnessTrackerApi", "FitnessTrackerApi\FitnessTrackerApi.csproj", "{02E1823E-3A81-464B-9789-2AD34890BFBA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3524802D-4152-42F4-8D3A-B458B16430F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3524802D-4152-42F4-8D3A-B458B16430F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3524802D-4152-42F4-8D3A-B458B16430F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3524802D-4152-42F4-8D3A-B458B16430F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02E1823E-3A81-464B-9789-2AD34890BFBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02E1823E-3A81-464B-9789-2AD34890BFBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02E1823E-3A81-464B-9789-2AD34890BFBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02E1823E-3A81-464B-9789-2AD34890BFBA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
