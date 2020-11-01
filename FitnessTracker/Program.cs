@@ -7,6 +7,7 @@ using System.Net.Http;
 
 using FitnessTrackerApi.Models;
 
+
 namespace FitnessTracker
 {
     class Program

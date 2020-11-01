@@ -6,10 +6,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    <ProjectReference Include="..\FitnessTrackerApi\FitnessTrackerApi.csproj" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\FitnessTrackerApi\FitnessTrackerApi.csproj" />
-    <ProjectReference Include="..\ApiHelperMethods\ApiHelperMethods.csproj" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
   </ItemGroup>
 </Project>
