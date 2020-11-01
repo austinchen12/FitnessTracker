@@ -7,8 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FitnessTrackerApi", "Fitnes
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiHelperMethods", "ApiHelperMethods\ApiHelperMethods.csproj", "{8DFC07C6-2B13-4929-9F70-4EB16248A9F8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test", "test\test.csproj", "{A430B9EE-9FCC-4A19-9143-35BF7DD7A249}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,9 +25,5 @@ Global
 		{8DFC07C6-2B13-4929-9F70-4EB16248A9F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8DFC07C6-2B13-4929-9F70-4EB16248A9F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8DFC07C6-2B13-4929-9F70-4EB16248A9F8}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A430B9EE-9FCC-4A19-9143-35BF7DD7A249}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A430B9EE-9FCC-4A19-9143-35BF7DD7A249}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A430B9EE-9FCC-4A19-9143-35BF7DD7A249}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A430B9EE-9FCC-4A19-9143-35BF7DD7A249}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

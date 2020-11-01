@@ -6,7 +6,6 @@ namespace ApiHelperMethods
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
         }
     }
 }
