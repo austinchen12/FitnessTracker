@@ -18,8 +18,6 @@ namespace FitnessTrackerApi
 {
     public class Startup
     {
-        private static string _configPath = System.IO.Path.Combine(System.IO.Directory.GetCurrentDirectory(), "config.txt");
-        private static string _path = System.IO.File.ReadAllText(_configPath);
 
         public Startup(IConfiguration configuration)
         {
@@ -33,7 +31,7 @@ namespace FitnessTrackerApi
         {
             services.AddControllers();
 
-            services.AddDbContext<FitnessLogDbContext>(option => option.UseSqlite($"Data Source = file:{_path}"));
+            services.AddDbContext<FitnessLogDbContext>(option => option.UseSqlite($"Data Source = file:FitnessLog.db"));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -43,14 +41,9 @@ namespace FitnessTrackerApi
             {
                 app.UseDeveloperExceptionPage();
             }
-            else
-            {
-                app.UseHsts(); // Asfend
-            }
 
             app.UseHttpsRedirection();
 
-            // Default
             app.UseRouting();
             app.UseAuthorization();
             app.UseEndpoints(endpoints =>
